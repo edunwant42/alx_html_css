@@ -1,20 +1,150 @@
-body{
-    display: flex;
-    flex-direction: column;
+body {
+   /* What was required for the TASK 1*/
+   display: flex;
+   flex-direction: column;
+   /* Task 3: My additional custom style*/
+   background-color: rgba(255, 251, 243, 0.8)
 }
 
-main{
-    display: flex;
-    flex-direction: row;
-    flex: auto;
+main {
+   /* What was required for the TASK 1*/
+   display: flex;
+   flex-direction: row;
+   flex: auto;
+   /* Task 3: My additional custom style*/
+   margin: 0 auto;
+   gap: 20px;
+   padding: 1.2rem;
+   border-radius: 15px;
 }
 
-article{
-    flex: 2;
-    overflow-y: auto;
+article {
+   /* What was required for the TASK 1*/
+   flex: 2;
+   overflow-y: auto;
+   /* Task 3: My additional custom style*/
+   background-color: white;
+   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+   border-radius: 15px;
 }
 
-aside{
-    flex: 1;
-    overflow-y: auto;
+aside {
+   /* What was required for the TASK 1*/
+   flex: 1;
+   overflow-y: auto;
+   /* Task 3: My additional custom style*/
+   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+   border-radius: 15px;
+
+}
+
+/* all the style below is what i have added for the TASK 3 as my additional custom style*/
+
+header,
+footer {
+   background-color: white;
+   color: rgb(49, 49, 49);
+   padding: 1rem;
+   text-align: center;
+   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+   border-radius: 15px;
+}
+
+footer p {
+   margin-top: 25px;
+}
+
+.owner {
+   text-decoration: none;
+   color: rgb(235, 171, 11);
+}
+
+.owner:hover {
+   text-decoration: underline;
+}
+
+.logo {
+   display: inline-block;
+   font-size: 2.5rem;
+   cursor: pointer;
+   transition: transform 0.3s ease-in-out;
+   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.logo:hover {
+   animation: giggle 0.6s ease-in-out;
+   animation-iteration-count: 1;
+   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
+}
+
+@keyframes giggle {
+   0% {
+      transform: rotate(0deg);
+   }
+
+   20% {
+      transform: rotate(15deg);
+   }
+
+   40% {
+      transform: rotate(-15deg);
+   }
+
+   60% {
+      transform: rotate(10deg);
+   }
+
+   80% {
+      transform: rotate(-10deg);
+   }
+
+   100% {
+      transform: rotate(0deg);
+   }
+}
+
+
+.nav-links {
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.nav-links:hover {
+   color: rgb(235, 171, 11);
+   font-size: 21px;
+}
+
+.highligh {
+   color: rgb(235, 171, 11);
+}
+
+.alx_logo img {
+   filter: drop-shadow(0 0 8px rgba(235, 171, 11, 0.8));
+   border-radius: 8px;
+   transition: transform 0.3s ease;
+}
+
+.alx_logo img:hover {
+   transform: scale(1.05);
+}
+
+table {
+   width: 100%;
+   margin-top: 1.5rem;
+   font-size: 1rem;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+   overflow: hidden;
+   text-align: center;
+}
+
+thead {
+   background-color: rgb(235, 171, 11);
+   color: #fff;
+}
+
+th,
+td {
+   padding: 12px 20px;
+   text-align: left;
 }
