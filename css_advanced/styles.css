@@ -134,3 +134,49 @@ header nav ul li a {
     font-weight: 400;
     font-style: italic;
 }
+
+
+.section2 {
+    width: 100%;
+    height: 392px;
+    background-color: #C271FF;
+}
+
+.section2-inner {
+    width: 46%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.section2 img {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+}
+
+.section2 .text-container blockquote {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.section2 .text-container h3 {
+    font-size: 22px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.section2 .text-container p {
+    font-size: 22px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-style: italic;
+}
