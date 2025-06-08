@@ -4,7 +4,7 @@ This project is part of the ALX Software Engineering Program. It demonstrates ad
 
 ## 📸 Preview
 
-![Homepage preview](./images/preview.png)
+![Homepage preview](./res/preview/preview.png)
 
 ## 🖥️ Project Description
 
