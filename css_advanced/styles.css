@@ -296,3 +296,73 @@ header nav ul li a {
     color: #C271FF;
     font-weight: 600;
 }
+
+.section4 {
+    width: 100%;
+    background-color: #071629;
+    padding: 80px 10px;
+    text-align: center;
+}
+
+.section4 h2 {
+    font-size: 32px;
+    color: #C271FF;
+    font-weight: 700;
+    font-family: "Source Sans 3", sans-serif;
+    margin-bottom: 40px;
+}
+
+.section4 .membership {
+    font-weight: 300;
+    color: #fff;
+}
+
+.section4 .section4-inner {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.section4 .section4-inner div {
+    flex: 1;
+    text-align: center;
+    line-height: 34px;
+}
+
+.section4 .section4-inner div img {
+    width: 44px;
+    height: 35px;
+}
+
+.section4 .section4-inner div h3 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Source Sans 3", sans-serif;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.section4 .section4-inner div p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Source Sans 3", sans-serif;
+    color: #fff;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.section4 button {
+    display: block;
+    margin: 18px auto 0px auto;
+    background-color: #C271FF;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+}
