@@ -368,7 +368,7 @@ button:active {
 }
 
 .contact-form {
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -389,23 +389,30 @@ button:active {
 .contact-form textarea {
     width: 100%;
     padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    border: none;
+    border-bottom: 2px solid #ccc;
     font-size: 16px;
     font-family: var(--font-source-sans-pro);
+    background-color: transparent;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: var(--primary-color);
-    box-shadow: 0 0 0 2px rgba(255, 101, 101, 0.2);
+    border-bottom: 2px solid var(--primary-color);
+    box-shadow: none;
+}
+
+.contact-form input,
+.contact-form textarea {
+    color: var(--color-dark-text);
+    font-weight: bold;
 }
 
 .contact-form textarea{
-    resize: vertical; 
+    resize: none;
+    height: 50px;
 }
-
 
 /* --- Responsive Design for Mobile (480px or less) --- */
 @media (max-width: 480px) {
