@@ -300,10 +300,39 @@ button:active {
 
 /* --- "Our results" Section Styling --- */
 .our-results-section {
-    background-color: var(--bg-dark);
-    padding: var(--section-vertical-padding) 0;
-    color: var(--text-color-light);
+  background-color: var(--bg-dark);
+  padding: var(--section-vertical-padding) 0;
+  color: var(--text-color-light);
+
+  background-image:
+    /* First set: normal */
+    linear-gradient(135deg, rgba(255,255,255,0.03) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(255,255,255,0.03) 25%, transparent 25%),
+    linear-gradient(45deg, rgba(255,255,255,0.03) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(255,255,255,0.03) 25%, transparent 25%),
+
+    /* Second set: rotated 180deg */
+    linear-gradient(315deg, rgba(255,255,255,0.03) 25%, transparent 25%),
+    linear-gradient(45deg, rgba(255,255,255,0.03) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(255,255,255,0.03) 25%, transparent 25%),
+    linear-gradient(135deg, rgba(255,255,255,0.03) 25%, transparent 25%);
+  
+  /* Size of a pattern tile — double height for two rows */
+  background-size: 80px 160px;
+
+  /* Positioning: first 4 gradients start at 0, second 4 start shifted vertically */
+  background-position:
+    0 0,
+    40px 0,
+    40px 40px,
+    0 40px,
+
+    0 80px,
+    40px 80px,
+    40px 120px,
+    0 120px;
 }
+
 
 .our-results-section .section-title,
 .our-results-section .section-description {
