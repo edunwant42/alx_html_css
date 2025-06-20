@@ -92,12 +92,12 @@ Here’s a glimpse of how the project looks across different devices:
 
 ### 💻 Desktop View
 <p align="center">
-  <img src="preview/desktop.png" alt="Desktop Preview" width="800">
+  <img src="preview/Desktop.png" alt="Desktop Preview" width="800">
 </p>
 
 ### 📱 Tablet View
 <p align="center">
-  <img src="preview/tablet.png" alt="Tablet Preview" width="600">
+  <img src="preview/Tablet.png" alt="Tablet Preview" width="600">
 </p>
 
 ### 📱 Mobile View
